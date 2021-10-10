@@ -9,6 +9,7 @@
     "mixins": [
       "loopback/common/mixins",
       "loopback/server/mixins",
+      "../node_modules/loopback-ds-timestamp-mixin",
       "../common/mixins",
       "./mixins"
     ]
@@ -39,10 +40,6 @@
     "dataSource": "MongoDB",
     "public": true
   },
-  "promtions": {
-    "dataSource": "MongoDB",
-    "public": true
-  },
   "promotions": {
     "dataSource": "MongoDB",
     "public": true
@@ -52,6 +49,14 @@
     "public": true
   },
   "Customer": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "Comment": {
+    "dataSource": "MongoDB",
+    "public": true
+  },
+  "Favorite": {
     "dataSource": "MongoDB",
     "public": true
   }
